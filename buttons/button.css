@@ -9,10 +9,24 @@
 #buttons{
     margin:0 auto;    
     max-width:950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 
 }
 a,button{
     cursor: pointer;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.components{
+    display: flex;
+    gap: 1rem;
 }
 
 .btn{
@@ -74,10 +88,7 @@ a,button{
 /* button with icon */
 
 
-.btn-w-icons{
-    display: block;
 
-}
 
 .btn-with-icon{
     display: flex;   
@@ -89,4 +100,23 @@ a,button{
     max-width:8rem;
     justify-content: center;
          
+}
+
+.floating-btn{
+    border: none;
+    padding:0.75rem;
+    border-radius:50%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.add{
+    background-color: var(--primary);
+}
+
+.delete{
+    background-color: var(--danger);
 }
