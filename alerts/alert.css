@@ -1,0 +1,49 @@
+:root{
+    --component-background-color:whitesmoke;
+    --primary:rgb(78, 179, 145);
+    --secondary:white;
+    --success:powderblue;
+    --warning:rgb(235, 235, 72);
+    --danger:rgb(233, 76, 76);
+}
+
+#alerts{
+    margin:0 auto;    
+    max-width:950px;
+
+}
+
+.components{
+    border-radius:0.5rem;
+    background-color:var(--component-background-color);
+    padding: 0.5rem;
+}
+
+.alert{    
+    padding:0.5rem;
+    border-radius: 5px;
+    margin: 0.5rem;
+}
+
+.primary{
+    background-color:var(--primary);
+    
+}
+
+.secondary{
+    background-color:var(--secondary)
+}
+
+.success{
+    background-color:var(--success);
+    
+}
+
+.danger{
+    background-color: var(--danger);
+    
+}
+
+.warning{
+    background-color:var(--warning) 
+}
