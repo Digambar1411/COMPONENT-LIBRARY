@@ -8,7 +8,7 @@
     
 #buttons{
     margin:0 auto;    
-    max-width:950px;
+    max-width:60rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -86,8 +86,6 @@ a,button{
 }
 
 /* button with icon */
-
-
 
 
 .btn-with-icon{
