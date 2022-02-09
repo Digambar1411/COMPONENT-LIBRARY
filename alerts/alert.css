@@ -35,6 +35,8 @@
 }
 
 .success{
+    display: flex;
+    align-items: center;
     background-color:var(--success);
     
 }
@@ -45,5 +47,7 @@
 }
 
 .warning{
+    display: flex;
+    align-items: center;
     background-color:var(--warning) 
 }
