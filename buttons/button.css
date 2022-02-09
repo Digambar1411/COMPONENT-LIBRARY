@@ -1,0 +1,120 @@
+:root{
+    --primary:#49a0eb;
+    --secondary:rgb(58, 201, 201);
+    --danger:rgb(204, 71, 47);
+    --safe:rgb(58, 201, 101);
+
+}
+    
+#buttons{
+    margin:0 auto;    
+    max-width:60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+a,button{
+    cursor: pointer;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.components{
+    display: flex;
+    gap: 1rem;
+}
+
+.btn{
+    border: none;
+    padding: 0.75rem 1rem;
+    border-radius:5px;
+    text-decoration: none;
+    color: white;
+    max-width: 10rem;
+   
+}
+
+/* Solid */
+
+.primary-solid{
+    background-color:var(--primary);
+    
+}
+
+.secondary-solid{
+    background-color: var(--secondary);
+    
+}
+
+.danger-solid{
+    background-color: var(--danger);
+    color: white;
+}
+.safe-solid{
+    background-color: var(--safe);
+    
+}
+
+/* outline */
+
+.primary-outline{
+    border:2px solid var(--primary);
+    color: var(--primary);
+    
+}
+
+.secondary-outline{
+    border:2px solid  var(--secondary);
+    color: var(--secondary);
+   
+}
+
+.danger-outline{
+    border:2px solid var(--danger);
+    color: var(--danger);
+    
+}
+.safe-outline{
+    border:2px solid var(--safe);
+    color: var(--safe);
+    
+}
+
+/* button with icon */
+
+
+.btn-with-icon{
+    display: flex;   
+    border-radius: 4px;
+    padding: 0.1rem 0.5rem;
+    align-items:center;
+    background-color:var(--primary);
+    color: white;  
+    max-width:8rem;
+    justify-content: center;
+         
+}
+
+.floating-btn{
+    border: none;
+    padding:0.75rem;
+    border-radius:50%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.add{
+    background-color: var(--primary);
+}
+
+.delete{
+    background-color: var(--danger);
+}
