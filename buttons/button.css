@@ -1,5 +1,5 @@
 :root{
-    --primary:rgb(58, 58, 201);
+    --primary:#49a0eb;
     --secondary:rgb(58, 201, 201);
     --danger:rgb(204, 71, 47);
     --safe:rgb(58, 201, 101);
@@ -11,14 +11,17 @@
     max-width:950px;
 
 }
+a,button{
+    cursor: pointer;
+}
 
 .btn{
     border: none;
-    padding: 0.5rem;
+    padding: 0.75rem 1rem;
     border-radius:5px;
-    /* line-height: 18px; */
     text-decoration: none;
     color: white;
+    max-width: 10rem;
    
 }
 
@@ -77,13 +80,13 @@
 }
 
 .btn-with-icon{
-    display: flex;
+    display: flex;   
     border-radius: 4px;
-    padding: 0.4rem 0.5rem;
+    padding: 0.1rem 0.5rem;
     align-items:center;
     background-color:var(--primary);
-    color: white;
-    margin: 0.5rem;    
-    width: 8rem;
+    color: white;  
+    max-width:8rem;
+    justify-content: center;
          
 }
