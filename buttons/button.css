@@ -1,0 +1,89 @@
+:root{
+    --primary:rgb(58, 58, 201);
+    --secondary:rgb(58, 201, 201);
+    --danger:rgb(204, 71, 47);
+    --safe:rgb(58, 201, 101);
+
+}
+    
+#buttons{
+    margin:0 auto;    
+    max-width:950px;
+
+}
+
+.btn{
+    border: none;
+    padding: 0.5rem;
+    border-radius:5px;
+    /* line-height: 18px; */
+    text-decoration: none;
+    color: white;
+   
+}
+
+/* Solid */
+
+.primary-solid{
+    background-color:var(--primary);
+    
+}
+
+.secondary-solid{
+    background-color: var(--secondary);
+    
+}
+
+.danger-solid{
+    background-color: var(--danger);
+    color: white;
+}
+.safe-solid{
+    background-color: var(--safe);
+    
+}
+
+/* outline */
+
+.primary-outline{
+    border:2px solid var(--primary);
+    color: var(--primary);
+    
+}
+
+.secondary-outline{
+    border:2px solid  var(--secondary);
+    color: var(--secondary);
+   
+}
+
+.danger-outline{
+    border:2px solid var(--danger);
+    color: var(--danger);
+    
+}
+.safe-outline{
+    border:2px solid var(--safe);
+    color: var(--safe);
+    
+}
+
+/* button with icon */
+
+
+.btn-w-icons{
+    display: block;
+
+}
+
+.btn-with-icon{
+    display: flex;
+    border-radius: 4px;
+    padding: 0.4rem 0.5rem;
+    align-items:center;
+    background-color:var(--primary);
+    color: white;
+    margin: 0.5rem;    
+    width: 8rem;
+         
+}
