@@ -1,5 +1,4 @@
 :root{
-    
   --component-background-color:whitesmoke;
   --color-badge:rgb(238, 113, 171);
   --primary-color:rgb(35, 44, 198);
@@ -10,43 +9,38 @@
 /* badge on buttons*/
 .btn-with-badge{
   position: relative;
-  
 }
 
 .badge{
- 
   background-color: var(--primary-color);
   border-radius: 50%; 
   color: white;
   text-align: center;
-  font-size:smaller;
-  
-     
+  font-size:smaller; 
 }
 
 .large-badge{
-  padding:9px;
-
+  padding:8px;
 }
 
 .small-badge{
- padding:7px;
- 
+ padding:6px;
 }
+
 .badge-right{
   position: absolute;
-  top:-25px;
-  right:-13px;
+  top:-1.5rem;
+  right:-0.75rem;
   background-color:var(--color-badge);
   padding:9px;
-  
 }
+
 .badge-left{
   display: flex;
   align-items: center;
   position: absolute;
-  top:-25px;
-  left:-16px;    
+  top:-1.5rem;
+  left:-1rem;    
   background-color:var(--color-badge);
   padding:9px;
 }
@@ -58,7 +52,6 @@
 }
 
 /* Icon with a badge */
-
 .icon{
   font-size:3rem;
 }
@@ -66,8 +59,8 @@
 .icon-w-badge{
   position: relative;
  
-
 }
+
 .badge-on-icon{
   position: absolute;
   top: -10px;
@@ -85,8 +78,7 @@
   border-radius: 50%;
   width: 100%;
   height: inherit;
-  object-fit: cover;
-    
+  object-fit: cover;  
 }
 
 .badge-online{
@@ -95,9 +87,8 @@
   justify-content: center;
   padding:10px;
   background-color: var(--online-badge);
-  top:116px;
-  left: 116px;
-
+  top:7.25rem;
+  left: 7.25rem;
 }
 
 .badge-offline{
@@ -106,9 +97,8 @@
   justify-content: center;
   padding:10px;
   background-color:var(--offline-badge);
-  top: 72px;
-  left: 72px;
-
+  top: 4.5rem;
+  left: 4.5rem;
 }
 
 /* universal */
@@ -118,12 +108,11 @@
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-
 }
 
 .component-area{
   width:50%;
-  max-width: 450px;
+  max-width: 28rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -133,7 +122,6 @@
   background-color:var(--component-background-color)
 }
 
-
 button{
   display: inline-block;    
   border: none;
@@ -141,6 +129,5 @@ button{
   letter-spacing: 1px;
   padding:0.4rem 0.7rem;
   cursor: pointer;
-  
 }
 
