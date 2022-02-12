@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+
+:root{
+    --badge-color:rgb(224, 114, 114);
+    --card-background:#fff;
+    --body-background:#F7F7F7;
+    --sub-title:rgb(107, 107, 107);
+    --btn-color:rgb(18, 1, 255);
+    --grey:grey; 
+    --color-on-hover:rgb(246, 245, 248);
+    --overlay-background:rgba(35, 38, 41, 0.4);
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;      
+}
+
+body{
+    margin: 2rem 0rem;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+/************** Basic *************/
+.card{
+    width:21.75rem;
+    background:var(--card-background);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image{
+    border-bottom: none;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-icon{
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.title{
+    font-size: 1rem;
+    line-height:2rem;
+    margin:0;
+}
+.sub-title{
+    margin:0;
+    font-size:0.75rem;
+    color: var(--sub-title);
+    font-weight: 600;
+    line-height: 1.25rem;
+}
+.content{
+    color:var(--grey);
+    font-weight: 500;
+    line-height: 1.5rem;  
+}
+
+.div-padding{
+    padding:0.2rem 0.7rem;
+}
+
+.btn{
+    border: none;
+    padding: 8px;
+    color: var(--btn-color);
+    font-weight: bold;
+    border-radius:5px;
+    background: none;
+    line-height:1rem 
+}
+
+.btn:hover{
+    background-color:var(--color-on-hover);
+}
+
+.icons a{
+    padding:0.6rem 0.8rem;
+    color: var(--grey);
+}
+
+.icons a:hover{
+    background-color:var(--color-on-hover);
+    border-radius: 50%;
+}
+
+a{
+    text-decoration:none;
+    letter-spacing:1px; 
+}
+
+/* card with text overlay  */
+.text-overlay {
+    width:20.5rem;
+    position: absolute;
+    bottom:-10rem;
+    background-color:var(--overlay-background);
+}
+
+/* Horizontal Card*/
+.horizontal{
+    display: flex;
+}
+
+.item:nth-child(3){
+    display: none;
+}
+
+.header-image{
+    border-top-right-radius:none;
+}
+
+/* Card with badge */
+.card-w-badge{
+    position: relative;
+}
+
+.card-w-dismiss{
+    position: relative;
+}
+
+.card-badge {
+    background-color: var(--badge-color);
+    position: absolute;
+    top: 0px;
+    left: -2px;
+    padding: 0.5rem;
+    width: 7rem;
+    text-align: center;
+    box-shadow: 4px 4px 15px rgba(26, 35, 126, 0.2);
+}
+
+/* card with dismiss */
+.card-dismiss{
+    background-color:whitesmoke;
+    position: absolute;
+    font-size: large;
+    font-weight: bolder;
+    top: 0px;
+    right:-2px;
+    padding: 0.4rem 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+   
+}
+
+.card-dismiss:hover{
+    background-color:var(--color-on-hover);
+    cursor: pointer;
+    
+}
