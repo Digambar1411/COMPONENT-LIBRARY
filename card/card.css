@@ -25,7 +25,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;   
 }
 
-/************** Basic *************/
+/* Basic */
 .card{
     width:21.75rem;
     background:var(--card-background);
