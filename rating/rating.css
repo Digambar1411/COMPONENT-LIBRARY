@@ -1,0 +1,14 @@
+:root{
+    --component-background:rgb(247, 245, 242);
+}
+.checked{
+    color:orange
+}
+.component-area{
+    display: flex;
+    flex-direction: column;    
+    padding: 2rem;
+    background-color: var(--component-background);
+    width: 70%;
+    gap: 1rem;
+}
