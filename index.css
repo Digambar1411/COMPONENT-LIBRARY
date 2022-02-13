@@ -1,10 +1,18 @@
 :root{
     --primary-color:#49a0eb;
-    --secondary-color:aliceblue;
+    --secondary-color:aliceblue;  
 }
+
 .intro{
     width: 70%;
     margin: 1rem auto;
+}
+
+.main-page{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
 }
 
 .main-components{
@@ -38,7 +46,7 @@
     max-width: 10rem; 
     background-color:var(--primary-color);
     margin-bottom: 1rem;
-    color: white
+    color: white;
 }
 
 .component-desc{
@@ -46,7 +54,7 @@
 }
 
 .footer{
-    background-color: aliceblue;
+    background-color: var(--secondary-color);
     text-align: center;
     padding: 1rem;
 }
@@ -55,4 +63,27 @@
     text-decoration: none;
     color: black;
     padding: 5px;
+    font-size: larger;
+}
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    background-color:var(--secondary-color);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navmenu{
+    list-style: none;
+    margin-left: auto;
+    display: flex;
+    gap: 1rem;
+    padding-right:1rem;
+}
+
+.navbrand{
+    color: var(--primary-color);
+    padding-left:10px;
 }
