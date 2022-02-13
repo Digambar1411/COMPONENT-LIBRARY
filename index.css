@@ -1,6 +1,10 @@
 :root{
     --primary-color:#49a0eb;
 }
+.intro{
+    width: 70%;
+    margin: 1rem auto;
+}
 
 .main-components{
     width: 80%;
