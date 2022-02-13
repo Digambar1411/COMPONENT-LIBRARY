@@ -1,5 +1,6 @@
 :root{
     --primary-color:#49a0eb;
+    --secondary-color:aliceblue;
 }
 .intro{
     width: 70%;
@@ -13,6 +14,10 @@
     gap: 1rem;
     justify-content: center;
     margin: 0 auto;
+}
+
+.margin-zero{
+    margin: 0;
 }
 
 .compo{
@@ -38,4 +43,16 @@
 
 .component-desc{
     margin-bottom: 1rem;
+}
+
+.footer{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 1rem;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
 }
