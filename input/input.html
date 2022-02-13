@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Inputs</h1>
+        <p>Inputs are necessary for user interaction with the website. Inputs are used to take information from the user</p>
+     </div>
+
+    <div class="component-area">
+        <form>
+            <div class="flex-col">
+                <label for="email">Email</label>
+                <input
+                class="input-height"
+                  type="email"
+                  placeholder="abc@gmail.com"
+                  required
+                />
+            </div>
+          
+            <div class="flex-col">
+                <label for="name">Name</label>
+                <input
+                class="input-height"
+                  type="text"
+                  placeholder="Enter your name"
+                  required
+                />
+            </div>
+          
+            <div class="flex-col">
+                <label for="password">Password</label>
+                <input
+                class="input-height"
+                type="password"
+                  placeholder="Enter your password"
+                  required
+                />
+            </div>
+          
+            <div class="flex-col">
+                <label for="confirm-password"
+                  >Confirm Password</label>
+                <input
+                class="input-height"
+                  type="password"
+                  placeholder="Re-enter password"
+                  required
+                />
+                <span class="error">Passwords not matched. Try Again</span>
+            </div>
+    
+            <button class="submit-btn">submit</button>
+         </form>
+    </div>
+</body>
+</html>
