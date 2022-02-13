@@ -29,6 +29,7 @@
     max-width: 10rem; 
     background-color:var(--primary-color);
     margin-bottom: 1rem;
+    color: white
 }
 
 .component-desc{
