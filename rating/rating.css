@@ -1,8 +1,9 @@
 :root{
     --component-background:rgb(247, 245, 242);
+    --color-checked:orange
 }
 .checked{
-    color:orange
+    color:var(--color-checked);
 }
 .component-area{
     display: flex;
