@@ -1,17 +1,15 @@
-*{
-    font-family: Roboto,sans-serif;
-}
-
 :root{
     --hover-color:rgb(44, 44, 44);
-    --snack-background:rgba(36, 32, 36, 0.904);
+    --toast-background:rgba(36, 32, 36, 0.904);
+    --component-background:rgb(247, 245, 242);
 }
 
-.snack{
+.toast{
     padding:0 1rem;
     height: fit-content;
-    width:50%;
-    background-color: var(--snack-background);
+    width:30%;
+    max-width:400px;
+    background-color: var(--toast-background);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,16 +17,16 @@
     color: white;
     position: absolute;
     top:3.25rem;
-    left:7rem;  
+    left:25rem;  
     margin: 0 auto;
 }
 
-.main{
-    background-color: whitesmoke;
+.toast-main{
+    background-color: var(--component-background);
     height: 10rem;
-    width:60%;
+    width:100%;
     position: relative;
-    margin: 4rem auto;
+    
 }
 
 .toast-link{
