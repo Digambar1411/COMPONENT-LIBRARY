@@ -4,22 +4,15 @@
 .checked{
     color:orange
 }
-.component-area{
+.rating-component-area{
+    width: 100%;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
     padding: 2rem;
     background-color: var(--component-background);
-    width: 70%;
     gap: 1rem;
 }
 
-.main-rating{
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 1rem;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-}
+

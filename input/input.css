@@ -12,12 +12,18 @@
     margin: 1rem 0;
 }
 
-.component-area{
+.form-area{
+    width: 40%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.input-component-area{
     display: flex;
     flex-direction: column;    
     padding: 2rem;
     background-color: var(--component-background);
-    width: 80%;
+    width: 100%;
 }
 
 .input-height{

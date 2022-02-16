@@ -1,6 +1,6 @@
 .image-container {
     margin: 0 auto;;
-    width:40rem;
+    width:100%;
     background-color: whitesmoke;
     padding: 2rem;
 }
@@ -8,26 +8,24 @@
 .responsive-img {
     margin: 0 auto;
     display: flex;
-    width: 70%;
-    height: 70%;
-    max-inline-size: 100%;
+    width: 50%;
+    height: 50%;
     block-size: auto;
 }
   
 .rounded-img {
     margin: 0 auto;
     border-radius: 50%;
-    width: 70%;
-    height: inherit;
+    width: 50%;
     object-fit: cover;
 }
   
 @media only screen and (max-width: 480px) {
     .responsive-img {
-      width: 60%;
-      height: 60%;
+      width: 50%;
+      height: 50%;
     }
     .image-container {
-      width: 80%;
+      width: 100%;
     }
 }
