@@ -29,14 +29,26 @@ a,button{
     gap: 1rem;
 }
 
-.btn{
+.solid{
     border: none;
     padding: 0.75rem 1rem;
     border-radius:5px;
     text-decoration: none;
     color: white;
-    max-width: 10rem;
+    width: 10rem;
+    max-width: 12rem;
    
+}
+
+.btn-outline{
+    border: none;
+    padding: 0.75rem 1rem;
+    border-radius:5px;
+    text-decoration: none;
+    color: white;
+    width: 10rem;
+    max-width: 12rem;
+
 }
 
 /* Solid */
@@ -91,13 +103,22 @@ a,button{
 .btn-with-icon{
     display: flex;   
     border-radius: 4px;
-    padding: 0.1rem 0.5rem;
+    padding: 2px 4px;
     align-items:center;
     background-color:var(--primary);
-    color: white;  
-    max-width:8rem;
+    color: white;
+    width:8rem;
+    max-width:10rem;
     justify-content: center;
          
+}
+.btn-w-icon{
+    border: none;
+    padding:8px 6px;
+    border-radius:5px;
+    text-decoration: none;
+    color: white;
+    max-width: 12rem;
 }
 
 .floating-btn{
@@ -107,8 +128,9 @@ a,button{
     text-decoration: none;
     display: flex;
     align-items: center;
+    padding: 0.75rem 1rem;
+    color: white;
     
-
 }
 
 .add{
