@@ -1,6 +1,6 @@
 :root{
     --primary-color:#49a0eb;
-    --secondary-color:aliceblue;  
+    --secondary-color:rgb(247, 247, 248);  
 }
 
 .intro{
@@ -68,11 +68,14 @@
 
 .navbar{
     width: 100%;
+    height:5.5rem;
     position: fixed;
     background-color:var(--secondary-color);
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    z-index:3;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
 
 }
 
