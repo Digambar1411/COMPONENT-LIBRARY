@@ -111,13 +111,11 @@
 }
 
 .component-area{
-  width:50%;
-  max-width: 28rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2rem;
   padding:2rem 4rem;
   background-color:var(--component-background-color)
 }

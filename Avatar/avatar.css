@@ -1,3 +1,6 @@
+:root{
+    --component-background-color:whitesmoke;
+}
 .rounded-avatar {
     border-radius: 50%;
     width: 100%;
@@ -6,20 +9,14 @@
 }
 
 .avatar-container {
+    padding: 2rem;
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
+    justify-content: center;
     align-items: center;
     gap: 2rem;
     flex-wrap: wrap;
-}
-
-.avatar{
-    padding:1rem;
-    width:80%;    
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    background-color:gainsboro;
+    background-color:var(--component-background-color);
 }
 
 .avatar-lg{
