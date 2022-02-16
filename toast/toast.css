@@ -34,12 +34,12 @@
     color:blueviolet;
 }
 
-span{
+.toast-span{
     border-radius: 50%;
-    padding: 0.4rem;
+    padding:1rem;
 }
 
-span:hover{
+.toast-span:hover{
     background-color:var(--hover-color);
     
 }
