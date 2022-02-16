@@ -92,3 +92,8 @@
 .text-strike-through{
     text-decoration: line-through;
 }
+
+.bold-large{
+    font-size: large;
+    font-weight: bold;
+}
