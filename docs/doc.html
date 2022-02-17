@@ -6,6 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="doc.css">
     <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../alerts/alert.css">
+    <link rel="stylesheet" href="../Avatar/avatar.css">
+    <link rel="stylesheet" href="../badge/badge.css">
+    <link rel="stylesheet" href="../buttons/button.css">
+    <link rel="stylesheet" href="../Images/image.css">
+    <link rel="stylesheet" href="../card/card.css">
+    <link rel="stylesheet" href="../input/input.css">
+    <link rel="stylesheet" href="../rating/rating.css">
+    <link rel="stylesheet" href="../toast/toast.css">
+    <link rel="stylesheet" href="../typo/typo.css">
+
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
+      rel="stylesheet">
+    
+   
     <title>docs</title>
 </head>
 <body class="main-page">
@@ -19,10 +38,10 @@
         </nav>
     </header>
 
-    <main>
+    <main class="main-doc">
         <div class="side-section">
             <div class="side-section-heading"><h2>Components</h2></div>
-            <div class="items"><a href="../alerts/alert.html">Alert</a></div>
+            <div class="items"><a href="#alerts">Alert</a></div>
             <div class="items"><a href="#Avatar">Avatar</a></div>
             <div class="items"><a href="#Badge">badge</a></div>
             <div class="items"><a href="#Buttons">Buttons</a></div>
@@ -32,20 +51,591 @@
             <div class="items"><a href="#Rating">Rating</a></div>
             <div class="items"><a href="#Toast">Toast</a></div>
             <div class="items"><a href="#Typo">Typo</a></div>
-            <div class="items"><a href="">Avatar</a></div>
-            <div class="items"><a href="">badge</a></div>
-            <div class="items"><a href="">Buttons</a></div>
-            <div class="items"><a href="">Card</a></div>
-            <div class="items"><a href="">Images</a></div>
-            <div class="items"><a href="">Input</a></div>
-            <div class="items"><a href="">Rating</a></div>
-            <div class="items"><a href="">Toast</a></div>
-            <div class="items"><a href="">Typo</a></div>
+            <div class="items"><a href="#Images">Images</a></div>
+            <div class="items"><a href="#Input">Input</a></div>
+            <div class="items"><a href="#Rating">Rating</a></div>
+            <div class="items"><a href="#Toast">Toast</a></div>
+            <div class="items"><a href="#Typo">Typo</a></div>
+           
         </div>
+
         <div class="main-section">
+            <div id="alerts">
+                <div class="intro">
+                    <h1 class="title">Alerts</h1>
+                    <p class="info">Alerts are used to attract user's attention for important information without interrupting the user's flow.</p>
+                </div>
+
+                <div class="alert-components">
+                    <div class="alert primary">A primary alert example !!</div>
+        
+                    <div class="alert secondary">A secondary alert example!!!!</div>
+        
+                    <div class="alert success">
+                        <span class="material-icons">check_circle</span>
+                        A success alert example!!!!
+                    </div>
+        
+                    <div class="alert danger">A danger alert example!!!!</div>
+        
+                    <div class="alert warning">
+                        <span class="material-icons">warning</span>
+                        A warning alert example!!!</div>
+                </div>
+        
+                <div class="code-snipet">
+                </div>
+            </div>
+
+            <div id="Avatar">
+                <div class="intro">
+                    <h2 class="title">Avatars</h2>
+                    <p class="info">Avatar can be used to show user's profile picture on user profile information page</p>
+                </div>
+
+                <div class="avatar-container">
+                    <img class="rounded-avatar avatar-lg"  src="https://i.pravatar.cc/200?img=4" alt="large-avatar" />
+                    
+                    <img class="rounded-avatar avatar-md" src="https://i.pravatar.cc/200?img=4" alt="Medium-avatar" />
+                    
+                    <img class="rounded-avatar avatar-sm" src="https://i.pravatar.cc/200?img=4"  alt="small-avatar"/>
+                    
+                </div>
+            </div>
+
+            <div id="Badge">
+                <div class="intro">
+                    <h2 class="title">Badge</h2>
+                    <p class="info">Badges are being used to display a notification count or status information.</p>
+                </div>
+
+                <h3>Badge on Buttons</h3>
+                <div class="component-area">
+                    <div class="btn-with-badge">
+                        <button class="btn">Action</button>
+                        <span class="badge badge-left">10</span>
+                    </div>
+            
+                    <div class="btn-with-badge">
+                        <button class="btn">Action</button>
+                        <span class="badge badge-right">18</span>
+                    </div>
+        
+                </div>
+                
+                <h3>Badge on Icons</h3>
+                <div class="component-area">
+                    <div class="icon-w-badge">
+                     
+                        <span class="material-icons icon">home</span>
+                        <span class="badge small-badge badge-on-icon">15</span>
+                    </div>
+        
+                    <div class="icon-w-badge">
+                        
+                        <span class="material-icons icon">email</span>
+                        <span class="badge small-badge badge-on-icon">15</span>
+                    </div>
+        
+                </div>
+        
+                <h3>Badge on Avatars</h3>
+                <div class="component-area">
+                    <div class="avatar-w-badge">
+                        <img class="round-avatar" src="https://i.pravatar.cc/150?img=4" alt="">
+                        <span class="badge badge-online"></span>
+                    </div>
+        
+                    <div class="avatar-w-badge">
+                        
+                        <img class="round-avatar"  src="https://i.pravatar.cc/100?img=4" alt="">
+                        <span class="badge badge-offline"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Button">
+                <div class="component intro">
+                    <h1>Buttons</h1>
+                    <p>Buttons allow users to take actions. and make choices with a single tap.</p>
+                </div>
+                
+                <h3>Solid buttons</h3>
+                <div class="components">
+                    <button class="solid primary-solid">Primary</button>
+                    <button class="solid secondary-solid">Secondary</button>                
+                    <button class="solid danger-solid">Danger</button>
+                    <button class="solid safe-solid">Safe</button>
+                </div>
+        
+                <h3>Outline buttons</h3>
+                <div class="components">  
+                    <button class="btn-outline primary-outline">Primary</button>   
+                    <button class="btn-outline secondary-outline">Secondary</button>
+                    <button class="btn-outline danger-outline">danger</button>
+                    <button class="btn-outline safe-outline">safe</button>       
+                </div>   
+        
+                <h3>Icon buttons</h3>
+                <div class="components">            
+                    <div class="btn-with-icon">
+                        <span class="material-icons">save</span>
+                        <a class="btn-w-icon"  href="#">Save</a>
+                    </div> 
+        
+                    <div class="btn-with-icon">
+                        <span class="material-icons">delete</span>
+                        <a class="btn-w-icon"  href="#"> Delete</a> 
+                    </div>
+        
+                    <div class="btn-with-icon">
+                        <span class="material-icons">shopping_cart</span>
+                        <a class="btn-w-icon"  href="#"> Add to cart</a> 
+        
+                    </div>   
+                </div>
+        
+                <h3>Floating action buttons</h3>
+                <div class="components">
+                    <div>
+                        <button class="floating-btn add"><span class="material-icons">add</span></button>
+                        
+                    </div>
+        
+                    <div>
+                        <button class="floating-btn delete"><span class="material-icons">delete</span></button>
+                    </div>
+                    
+                </div>
+            
+            </div>-
+
+            <div id="Card" >
+                <div class="component intro">
+                    <h1>Cards</h1>
+                    <p>Card are used to show user related data collectively, like product details.</p>
+                </div>
+
+                <div class="cards">
+                    <h3>basic Card</h3>
+                    <div class="card">
+                        <div class="body">
+                            <div>
+                                <img class="img-size" src="../img/laptop1.jpeg" alt="">
+                            </div>
+            
+                            <div class="body-content div-padding">
+                                <h3 class="card-title">HP</h3>
+                                <h4 class="card-sub-title">HP 14s-dr2512TU</h4>
+                            </div>
+            
+                            <div class="body-content div-padding">
+                                
+                                <p class="content">HP 14s-dr2512TU 11th Gen Core i3 Windows 11 Home Laptop (8GB RAM, 256GB SSD, Intel UHD Graphics, MS Office, 35.60 cm, 536B6PA#ACJ, Silver)</p>
+                            </div>    
+                        </div>
+            
+                        <div class="flex-row div-padding">
+                            <div class="flex-card"> 
+                                <div class="flex-card">
+                                    <span class="bold-large">₹40,990</span>  
+                                    <span class="text-strike-through">₹65,990</span>
+                                    <span class="text-lightblue">(34% off)</span>
+            
+                                </div>
+            
+                                <a href="#">
+                                    <span class="material-icons-outlined">favorite_border</span>
+                                </a>
+                            </div>
+                        </div>
+            
+                        <div class="footer div-padding">
+                            <div class="footer-icon">          
+                            
+                                <button class="btn primary-btn"><a href="#">Buy</a></button>
+                                <button class="btn secondary-btn"><a href="#">Add To Cart</a></button>
+                                
+                            </div>
+            
+                            
+                        </div>
+                    </div>
+                
+                    <h3>card with text overlay</h3>        
+                    <div class="card">
+                        <div class="body">
+                            <div class="child hero">
+                                <img class="img-size" src="../img/laptop1.jpeg" alt="laptop1">
+                            </div>
+            
+                            <div class="body-content div-padding">
+                                <h3 class="card-title">HP</h3>
+                                <h4 class="card-sub-title">HP 14s-dr2512TU</h4>
+                            </div>
+            
+                            <div class="body-content div-padding">
+                                
+                                <p class="content">HP 14s-dr2512TU 11th Gen Core i3 Windows 11 Home Laptop (8GB RAM, 256GB SSD, Intel UHD Graphics, MS Office, 35.60 cm, 536B6PA#ACJ, Silver)</p>
+                            </div>     
+                        </div>
+                        <div class="footer div-padding">
+                            <div class="footer-icon">          
+                            
+                                <button class="btn primary-btn"><a href="#">Buy</a></button>
+                                <button class="btn secondary-btn"><a href="#">Add To Cart</a></button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                
+                    <h3>text only card</h3>
+                    <div class="card">
+                        <div class="body">
+                            <div class="body-content div-padding">
+                                <h3 class="card-title">Our Changing Planet</h3>
+                                <h4 class="card-sub-title">by Kurt Wanger</h4>
+                            </div>
+            
+                            <div class="body-content div-padding">
+                                
+                                <p class="content">Visit ten places on our planet that are undergoing the biggest changes today</p>
+                            </div>    
+                        </div>
+            
+                        <div class="flex-row div-padding">
+                            <div class="flex-card"> 
+                                <div class="flex-card">
+                                    <span class="bold-large">₹40,990</span>  
+                                    <span class="text-strike-through">₹65,990</span>
+                                    <span class="text-lightblue">(34% off)</span>
+            
+                                </div>
+            
+                                <a href="#">
+                                    <span class="material-icons-outlined">favorite_border</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer div-padding">
+                            <div class="footer-icon">          
+                            
+                                <button class="btn primary-btn"><a href="#">Buy</a></button>
+                                <button class="btn secondary-btn"><a href="#">Add To Cart</a></button>
+                                
+                            </div>
+            
+                            
+                        </div>
+            
+                        
+                    </div>
+            
+                    <h3>Horizontal card</h3>
+                    <div class="card">
+                    <div class="horizontal">
+                        <div class="item header-image">
+                            <img class="card-image"  src="https://picsum.photos/110/110" alt="">
+                        </div>
+            
+                        <div class="item body-content div-padding">
+                            <h3 class="card-title">Our Changing Planet</h3>
+                            <h4 class="card-sub-title">by Kurt Wanger</h4>
+                        </div>
+            
+                        <div class="item body-content div-padding">
+                            
+                            <p class="content">Visit ten places on our planet that are undergoing the biggest changes today</p>
+                        </div>    
+                    </div>
+            
+                    <div class="flex-row div-padding">
+                        <div class="flex-card"> 
+                            <div class="flex-card">
+                                <span class="bold-large">₹40,990</span>  
+                                <span class="text-strike-through">₹65,990</span>
+                                <span class="text-lightblue">(34% off)</span>
+            
+                            </div>
+            
+                            <a href="#">
+                                <span class="material-icons-outlined">favorite_border</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer div-padding">
+                        <div class="footer-icon">          
+                        
+                            <button class="btn primary-btn"><a href="#">Buy</a></button>
+                            <button class="btn secondary-btn"><a href="#">Add To Cart</a></button>
+                            
+                        </div>
+            
+                        
+                    </div>
+                    </div>
+            
+                    <h3>card with Badge</h3>        
+                    <div class="card card-w-badge">
+                        <div class="body">
+                            <div class="child hero">
+                                <img class="img-size" src="../img/laptop1.jpeg" alt="laptop1">
+                            </div>
+            
+                            <div class="body-content div-padding">
+                                <h3 class="card-title">HP</h3>
+                                <h4 class="card-sub-title">HP 14s-dr2512TU</h4>
+                            </div>
+            
+                            <div class="body-content div-padding">
+                                
+                                <p class="content">HP 14s-dr2512TU 11th Gen Core i3 Windows 11 Home Laptop (8GB RAM, 256GB SSD, Intel UHD Graphics, MS Office, 35.60 cm, 536B6PA#ACJ, Silver)</p>
+                            </div>   
+                        </div>
+            
+                        <div class="card-badge">New</div>
+                        <div class="flex-row div-padding">
+                            <div class="flex-card"> 
+                                <div class="flex-card">
+                                    <span class="bold-large">₹40,990</span>  
+                                    <span class="text-strike-through">₹65,990</span>
+                                    <span class="text-lightblue">(34% off)</span>
+            
+                                </div>
+            
+                                <a href="#">
+                                    <span class="material-icons-outlined">favorite_border</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer div-padding">
+                            <div class="footer-icon">          
+                            
+                                <button class="btn primary-btn"><a href="#">Buy</a></button>
+                                <button class="btn secondary-btn"><a href="#">Add To Cart</a></button>
+                                
+                            </div>
+            
+                            
+                        </div>
+                    </div>
+            
+                    <h3>card with dismiss</h3>
+                    <div class="card card-w-dismiss">
+                        <div class="body">
+                            <div>
+                                <img class="img-size" src="../img/laptop1.jpeg" alt="laptop1">
+                            </div>
+            
+                            <div class="body-content div-padding">
+                                <h3 class="card-title">HP</h3>
+                                <h4 class="card-sub-title">HP 14s-dr2512TU</h4>
+                            </div>
+            
+                            <div class="body-content div-padding">
+                                
+                                <p class="content">HP 14s-dr2512TU 11th Gen Core i3 Windows 11 Home Laptop (8GB RAM, 256GB SSD, Intel UHD Graphics, MS Office, 35.60 cm, 536B6PA#ACJ, Silver)</p>
+                            </div>    
+                        </div>
+            
+                        <div class="card-dismiss"><span class="material-icons">
+                            share
+                            </span> </div>
+                            <div class="flex-row div-padding">
+                                <div class="flex-card"> 
+                                    <div class="flex-card">
+                                        <span class="bold-large">₹40,990</span>  
+                                        <span class="text-strike-through">₹65,990</span>
+                                        <span class="text-lightblue">(34% off)</span>
+                
+                                    </div>
+                
+                                    <a href="#">
+                                        <span class="material-icons-outlined">favorite_border</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="footer div-padding">
+                                <div class="footer-icon">          
+                                
+                                    <button class="btn primary-btn"><a href="#">Buy</a></button>
+                                    <button class="btn secondary-btn"><a href="#">Add To Cart</a></button>
+                                    
+                                </div>
+                            </div>
+                    </div>
+
+                </div> 
+
+            </div>
+
+            <div id="image" >
+                <div class="intro">
+                    <h2>Images</h2>
+                    <p>
+                        Images are the important aspects of any website. HTML provides us
+                        <span>img</span> tag with help of that we can
+                        put images on web page.
+                    </p>
+        
+                    <h3>Responsive Image</h3>
+                    <p>
+                        Responsive Image is a image which will have width and height
+                        inherited from its parents element.Responsive Images are used to
+                        display Images on websites, which are screen responsive.
+                    </p>
+                </div>
+                
+                <div class="image-container" >
+                    <img class="responsive-img" src="https://picsum.photos/300" />
+                </div>
+        
+                <div class="intro">
+                    <h3>Rounded Image</h3>
+                    <p>
+                        Round Images are circular images with border-radius 50% and its
+                        width and height is inherited from its parents.
+                    </p>
+                </div>
+        
+                <div class="image-container " >
+                    <img class="responsive-img rounded-img" src="https://picsum.photos/300" />
+                </div>
+            </div> 
+
+            <div id="input" >
+                <div class="intro">
+                  <h2 class="title">Inputs</h2>
+                  <p class="info">Inputs are necessary for user interaction with the website. Inputs are used to take information from the user</p>
+                </div>
+          
+                <div class="component-area">
+                  <form class="form-area">
+                      <div class="flex-col">
+                          <label for="email">Email</label>
+                          <input
+                          class="input-height"
+                            type="email"
+                            placeholder="abc@gmail.com"
+                            required
+                          />
+                      </div>
+                    
+                      <div class="flex-col">
+                          <label for="name">Name</label>
+                          <input
+                          class="input-height"
+                            type="text"
+                            placeholder="Enter your name"
+                            required
+                          />
+                      </div>
+                    
+                      <div class="flex-col">
+                          <label for="password">Password</label>
+                          <input
+                          class="input-height"
+                          type="password"
+                            placeholder="Enter your password"
+                            required
+                          />
+                      </div>
+                    
+                      <div class="flex-col">
+                          <label for="confirm-password"
+                            >Confirm Password</label>
+                          <input
+                          class="input-height"
+                            type="password"
+                            placeholder="Re-enter password"
+                            required
+                          />
+                          <span class="error">Passwords not matched. Try Again</span>
+                      </div>
+              
+                      <button class="submit-btn">submit</button>
+                  </form>
+              </div>
+          
+            </div>
+            
+            <div id="rating">
+                <div class="intro">
+                    <h1 class="title">Ratings</h1>
+                    <p class="info">Ratings are used to display reviews.</p>
+                </div>
+                <div class="rating-component-area">
+                    <div>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                    <div>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div id="toast">
+                <div class="intro">
+                    <h2 class="title">Toast</h2>
+                    <p class="info">This component can be used for toast or snackbar component. Toast is mostly used to show feedback message. Snackbar is to used show message that need user action
+
+                    </p>
+                </div>
+
+                <div class="toast-main">
+                    <div class="toast">
+                        <p>Retry in 5 seconds.</p>
+                        <a class="toast-link" href="#">RETRY</a>
+                        <span class="material-icons-outlined toast-span">close</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="typo">
+                <div class="intro">
+                    <h1 class="title">Typography</h1>
+                    <p class="info">Check out the below text utilities</p>
+                </div>
+
+                <div>
+                    <div class="typo-area">
+                        <h1>Heading 1</h1>
+                        <h2>Heading 2</h2>
+                        <h3>Heading 3</h3>
+                        <h4>Heading 4</h4>
+                        <h5>Heading 5</h5>
+                        <h6>Heading 6</h6>
+                    </div>
+            
+                    <h4 class="sub-text"> This is paragraph text</h4>
+                    <div class="typo-area">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices quis sem eu congue. Nullam id risus metus. Proin aliquam et dui ac condimentum. Mauris gravida vulputate orci ut aliquam. Sed sollicitudin feugiat ex, id lobortis libero ullamcorper ut. Suspendisse potenti. Phasellus sed nisi pharetra, sagittis sapien vel, semper nulla
+                        </p>
+                    </div>
+            
+                    <h4 class="sub-text">Some more texts</h4>
+                    <div class="typo-area">
+                        <p class="text-strike-through">This line of text is meant to be no longer accurance</p>
+                        <p class="text-bold">Text with bold font weight</p>
+                        <p class="text-light">Text with light font weight</p>
+                        <p class="text-grey">grey text can be used for subtitle</p>
+                        <p class="text-italic">italic text</p>
+                    </div>
+               </div>
+
+            </div>
 
         </div>
     </main>
-    
 </body>
 </html>

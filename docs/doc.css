@@ -1,17 +1,30 @@
 *{
     margin: 0;
 }
+
+.main-doc{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
 .side-section{
-    margin-top: 2rem;
-    top:100px;
-    position: sticky;
+    padding-top: 2rem;
     width:20%;
+    margin-top: 2rem;
+    position: sticky;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     padding: 1rem 0rem;
     scroll-behavior: auto;
     overflow-y:scroll;
+}
+
+.main-section{
+    padding: 1rem;
+    margin-top: 3rem;
+    width:80%;
 }
 
 .items{
@@ -31,6 +44,21 @@
 
 .side-section-heading{
     padding: 1rem 2rem;
+}
+
+.intro{
+    margin:1rem 0px;
+    gap:0.75rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size:1.5rem
+}
+
+.info{
+    padding-bottom: 8px;
 }
 
 
