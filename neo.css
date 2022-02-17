@@ -1,0 +1,15 @@
+@import "./alerts/alert.css";
+@import "./Avatar/avatar.css";
+@import "./badge/badge.css";
+@import "./card/card.css";
+@import "./docs/doc.css";
+@import "./Images/image.css";
+@import "./input/input.css";
+@import "./rating/rating.css";
+@import "./toast/toast.css";
+@import "./typo/typo.css";
+
+* {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
