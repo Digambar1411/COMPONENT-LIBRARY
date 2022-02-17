@@ -3,11 +3,6 @@
     --secondary-color:rgb(247, 247, 248);  
 }
 
-.intro{
-    width: 70%;
-    margin: 1rem auto;
-}
-
 .main-page{
     margin: 0;
     display: flex;
@@ -16,7 +11,7 @@
 }
 
 .main-components{
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
