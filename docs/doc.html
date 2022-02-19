@@ -18,10 +18,8 @@
     <link rel="stylesheet" href="../typo/typo.css">
   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
-      rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
 
     <title>Neo UI | docs</title>
 
@@ -40,31 +38,27 @@
     <main class="main-doc">
         <div class="side-section">
             <div class="side-section-heading"><h2>Components</h2></div>
-            <div class="items"><a href="#alerts">Alert</a></div>
-            <div class="items"><a href="#Avatar">Avatar</a></div>
-            <div class="items"><a href="#Badge">badge</a></div>
-            <div class="items"><a href="#Buttons">Buttons</a></div>
-            <div class="items"><a href="#Card">Card</a></div>
-            <div class="items"><a href="#Images">Images</a></div>
-            <div class="items"><a href="#Input">Input</a></div>
-            <div class="items"><a href="#Rating">Rating</a></div>
-            <div class="items"><a href="#Toast">Toast</a></div>
-            <div class="items"><a href="#Typo">Typo</a></div>
-            <div class="items"><a href="#Images">Images</a></div>
-            <div class="items"><a href="#Input">Input</a></div>
-            <div class="items"><a href="#Rating">Rating</a></div>
-            <div class="items"><a href="#Toast">Toast</a></div>
-            <div class="items"><a href="#Typo">Typo</a></div>
+            <div class="items"><a href="#alert">Alert</a></div>
+            <div class="items"><a href="#avatar">Avatar</a></div>
+            <div class="items"><a href="#badge">badge</a></div>
+            <div class="items"><a href="#button">Buttons</a></div>
+            <div class="items"><a href="#card">Card</a></div>
+            <div class="items"><a href="#image">Images</a></div>
+            <div class="items"><a href="#input">Input</a></div>
+            <div class="items"><a href="#rating">Rating</a></div>
+            <div class="items"><a href="#toast">Toast</a></div>
+            <div class="items"><a href="#typo">Typo</a></div>
+      
            
         </div>
 
         <div class="main-section">
-            <div id="alerts">
+            <div id="alert">
                 <div class="intro">
                     <h1 class="title">Alerts</h1>
                     <p class="info">Alerts are used to attract user's attention for important information without interrupting the user's flow.</p>
                 </div>
-
+        
                 <div class="alert-components">
                     <div class="alert primary">A primary alert example !!</div>
         
@@ -86,12 +80,12 @@
                 </div>
             </div>
 
-            <div id="Avatar">
+            <div id="avatar">
                 <div class="intro">
                     <h2 class="title">Avatars</h2>
                     <p class="info">Avatar can be used to show user's profile picture on user profile information page</p>
                 </div>
-
+        
                 <div class="avatar-container">
                     <img class="rounded-avatar avatar-lg"  src="https://i.pravatar.cc/200?img=4" alt="large-avatar" />
                     
@@ -102,21 +96,21 @@
                 </div>
             </div>
 
-            <div id="Badge">
+            <div id="badge">
                 <div class="intro">
                     <h2 class="title">Badge</h2>
                     <p class="info">Badges are being used to display a notification count or status information.</p>
                 </div>
-
+        
                 <h3>Badge on Buttons</h3>
                 <div class="component-area">
                     <div class="btn-with-badge">
-                        <button class="btn">Action</button>
+                        <button class="solid primary-solid">Action</button>
                         <span class="badge badge-left">10</span>
                     </div>
             
                     <div class="btn-with-badge">
-                        <button class="btn">Action</button>
+                        <button class="solid primary-solid">Action</button>
                         <span class="badge badge-right">18</span>
                     </div>
         
@@ -153,14 +147,14 @@
                 </div>
             </div>
 
-            <div id="Button">
-                <div class="component intro">
+            <div id="button">
+                <div class="intro">
                     <h1>Buttons</h1>
                     <p>Buttons allow users to take actions. and make choices with a single tap.</p>
                 </div>
                 
                 <h3>Solid buttons</h3>
-                <div class="components">
+                <div class="btn-components">
                     <button class="solid primary-solid">Primary</button>
                     <button class="solid secondary-solid">Secondary</button>                
                     <button class="solid danger-solid">Danger</button>
@@ -168,7 +162,7 @@
                 </div>
         
                 <h3>Outline buttons</h3>
-                <div class="components">  
+                <div class="btn-components">  
                     <button class="btn-outline primary-outline">Primary</button>   
                     <button class="btn-outline secondary-outline">Secondary</button>
                     <button class="btn-outline danger-outline">danger</button>
@@ -176,7 +170,7 @@
                 </div>   
         
                 <h3>Icon buttons</h3>
-                <div class="components">            
+                <div class="btn-components">            
                     <div class="btn-with-icon">
                         <span class="material-icons">save</span>
                         <a class="btn-w-icon"  href="#">Save</a>
@@ -195,7 +189,7 @@
                 </div>
         
                 <h3>Floating action buttons</h3>
-                <div class="components">
+                <div class="btn-components">
                     <div>
                         <button class="floating-btn add"><span class="material-icons">add</span></button>
                         
@@ -207,14 +201,14 @@
                     
                 </div>
             
-            </div>-
+            </div>
 
-            <div id="Card" >
-                <div class="component intro">
+            <div id="card">
+                <div class="intro">
                     <h1>Cards</h1>
                     <p>Card are used to show user related data collectively, like product details.</p>
                 </div>
-
+        
                 <div class="cards">
                     <h3>basic Card</h3>
                     <div class="card">
@@ -229,7 +223,7 @@
                             </div>
             
                             <div class="body-content div-padding">
-                                
+                    
                                 <p class="content">HP 14s-dr2512TU 11th Gen Core i3 Windows 11 Home Laptop (8GB RAM, 256GB SSD, Intel UHD Graphics, MS Office, 35.60 cm, 536B6PA#ACJ, Silver)</p>
                             </div>    
                         </div>
@@ -239,8 +233,7 @@
                                 <div class="flex-card">
                                     <span class="bold-large">₹40,990</span>  
                                     <span class="text-strike-through">₹65,990</span>
-                                    <span class="text-lightblue">(34% off)</span>
-            
+                                    <span class="text-lightblue">(34% off)</span>           
                                 </div>
             
                                 <a href="#">
@@ -250,11 +243,9 @@
                         </div>
             
                         <div class="card-footer div-padding">
-                            <div class="footer-icon">          
-                            
-                                <button class="btn primary-btn"><a href="#">Buy</a></button>
-                                <button class="btn secondary-btn"><a href="#">Add To Cart</a></button>
-                                
+                            <div>                                     
+                                <button class="solid primary-solid"><a href="#">Buy</a></button>
+                                <button class="btn-outline primary-outline"><a href="#">Add To Cart</a></button>                                
                             </div>
                         </div>
                     </div>
@@ -277,11 +268,9 @@
                             </div>     
                         </div>
                         <div class="card-footer div-padding">
-                            <div class="footer-icon">          
-                            
-                                <button class="btn primary-btn"><a href="#">Buy</a></button>
-                                <button class="btn secondary-btn"><a href="#">Add To Cart</a></button>
-                                
+                            <div>                                      
+                                <button class="solid primary-solid"><a href="#">Buy</a></button>
+                                <button class="btn-outline primary-outline"><a href="#">Add To Cart</a></button>                               
                             </div>
                         </div>
                     </div>
@@ -305,8 +294,7 @@
                                 <div class="flex-card">
                                     <span class="bold-large">₹40,990</span>  
                                     <span class="text-strike-through">₹65,990</span>
-                                    <span class="text-lightblue">(34% off)</span>
-            
+                                    <span class="text-lightblue">(34% off)</span>           
                                 </div>
             
                                 <a href="#">
@@ -315,11 +303,9 @@
                             </div>
                         </div>
                         <div class="card-footer div-padding">
-                            <div class="footer-icon">          
-                            
-                                <button class="btn primary-btn"><a href="#">Buy</a></button>
-                                <button class="btn secondary-btn"><a href="#">Add To Cart</a></button>
-                                
+                            <div>                                      
+                                <button class="solid primary-solid"><a href="#">Buy</a></button>
+                                <button class="btn-outline primary-outline"><a href="#">Add To Cart</a></button>                                
                             </div>
                         </div>
                     </div>
@@ -334,8 +320,7 @@
                         <div class="item body-content div-padding">
                             <h3 class="card-title">Our Changing Planet</h3>
                             <h4 class="card-sub-title">by Kurt Wanger</h4>
-                        </div>
-            
+                        </div>           
                         <div class="item body-content div-padding">
                             
                             <p class="content">Visit ten places on our planet that are undergoing the biggest changes today</p>
@@ -347,8 +332,7 @@
                             <div class="flex-card">
                                 <span class="bold-large">₹40,990</span>  
                                 <span class="text-strike-through">₹65,990</span>
-                                <span class="text-lightblue">(34% off)</span>
-            
+                                <span class="text-lightblue">(34% off)</span>            
                             </div>
             
                             <a href="#">
@@ -357,11 +341,9 @@
                         </div>
                     </div>
                     <div class="card-footer div-padding">
-                        <div class="footer-icon">          
-                        
-                            <button class="btn primary-btn"><a href="#">Buy</a></button>
-                            <button class="btn secondary-btn"><a href="#">Add To Cart</a></button>
-                            
+                        <div>                                
+                            <button class="solid primary-solid"><a href="#">Buy</a></button>
+                            <button class="btn-outline primary-outline"><a href="#">Add To Cart</a></button>                           
                         </div>
                     </div>
                     </div>
@@ -378,8 +360,7 @@
                                 <h4 class="card-sub-title">HP 14s-dr2512TU</h4>
                             </div>
             
-                            <div class="body-content div-padding">
-                                
+                            <div class="body-content div-padding">                               
                                 <p class="content">HP 14s-dr2512TU 11th Gen Core i3 Windows 11 Home Laptop (8GB RAM, 256GB SSD, Intel UHD Graphics, MS Office, 35.60 cm, 536B6PA#ACJ, Silver)</p>
                             </div>   
                         </div>
@@ -390,8 +371,7 @@
                                 <div class="flex-card">
                                     <span class="bold-large">₹40,990</span>  
                                     <span class="text-strike-through">₹65,990</span>
-                                    <span class="text-lightblue">(34% off)</span>
-            
+                                    <span class="text-lightblue">(34% off)</span>           
                                 </div>
             
                                 <a href="#">
@@ -400,10 +380,9 @@
                             </div>
                         </div>
                         <div class="crad-footer div-padding">
-                            <div class="footer-icon">          
-                            
-                                <button class="btn primary-btn"><a href="#">Buy</a></button>
-                                <button class="btn secondary-btn"><a href="#">Add To Cart</a></button>
+                            <div>                                      
+                                <button class="solid primary-solid"><a href="#">Buy</a></button>
+                                <button class="btn-outline primary-outline"><a href="#">Add To Cart</a></button>
                             </div>                      
                         </div>
                     </div>
@@ -434,8 +413,7 @@
                                     <div class="flex-card">
                                         <span class="bold-large">₹40,990</span>  
                                         <span class="text-strike-through">₹65,990</span>
-                                        <span class="text-lightblue">(34% off)</span>
-                
+                                        <span class="text-lightblue">(34% off)</span>               
                                     </div>
                 
                                     <a href="#">
@@ -444,18 +422,16 @@
                                 </div>
                             </div>
                             <div class="card-footer div-padding">
-                                <div class="footer-icon">          
-                                
-                                    <button class="btn primary-btn"><a href="#">Buy</a></button>
-                                    <button class="btn secondary-btn"><a href="#">Add To Cart</a></button>
-                                    
+                                <div>          
+                                    <button class="solid primary-solid"><a href="#">Buy</a></button>
+                                    <button class="btn-outline primary-outline"><a href="#">Add To Cart</a></button>                            
                                 </div>
                             </div>
                     </div>
                 </div> 
-            </div>
+            </div>  
 
-            <div id="image" >
+            <div id="image">
                 <div class="intro">
                     <h2>Images</h2>
                     <p>
@@ -489,32 +465,22 @@
                 </div>
             </div> 
 
-            <div id="input" >
+            <div id="input">
                 <div class="intro">
                   <h2 class="title">Inputs</h2>
                   <p class="info">Inputs are necessary for user interaction with the website. Inputs are used to take information from the user</p>
                 </div>
-          
-                <div class="component-area">
+              
+                <div class="input-component-area">
                   <form class="form-area">
                       <div class="flex-col">
                           <label for="email">Email</label>
-                          <input
-                          class="input-height"
-                            type="email"
-                            placeholder="abc@gmail.com"
-                            required
-                          />
+                          <input class="input-height" type="email" placeholder="abc@gmail.com" required/>
                       </div>
                     
                       <div class="flex-col">
                           <label for="name">Name</label>
-                          <input
-                          class="input-height"
-                            type="text"
-                            placeholder="Enter your name"
-                            required
-                          />
+                          <input class="input-height" type="text" placeholder="Enter your name" required/>
                       </div>
                     
                       <div class="flex-col">
@@ -539,11 +505,10 @@
                           <span class="error">Passwords not matched. Try Again</span>
                       </div>
               
-                      <button class="submit-btn">submit</button>
+                      <button class="solid primary-solid">submit</button>
                   </form>
-              </div>
-          
-            </div>
+                </div>
+            </div>    
             
             <div id="rating">
                 <div class="intro">

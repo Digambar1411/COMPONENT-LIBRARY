@@ -10,70 +10,70 @@
 </head>
 <body class="main-page">
   <header>
-      <nav class="navbar">
-          <h1 class="navbrand">Neo UI</h1>
-         <ul class="navmenu">
-             <li><a class="link" href="#">installation</a></li>
-             <li><a  class="link" href="#components">components</a></li>
-         </ul>
-      </nav>
-  </header>
+    <nav class="navbar flex">
+        <h1 class="navbrand">Neo UI</h1>
+        <ul class="navmenu flex">
+           <li><a class="link" href="/index.html">Home</a></li>
+           <li><a  class="link" href="./doc.html">Documentation</a></li>
+        </ul>
+    </nav>
+</header>
 
-  <div class="main-components">
-      <div>
-        <h1>Inputs</h1>
-        <p>Inputs are necessary for user interaction with the website. Inputs are used to take information from the user</p>
-      </div>
-
-      <div class="component-area">
-        <form>
-            <div class="flex-col">
-                <label for="email">Email</label>
-                <input
-                class="input-height"
-                  type="email"
-                  placeholder="abc@gmail.com"
-                  required
-                />
-            </div>
-          
-            <div class="flex-col">
-                <label for="name">Name</label>
-                <input
-                class="input-height"
-                  type="text"
-                  placeholder="Enter your name"
-                  required
-                />
-            </div>
-          
-            <div class="flex-col">
-                <label for="password">Password</label>
-                <input
-                class="input-height"
-                type="password"
-                  placeholder="Enter your password"
-                  required
-                />
-            </div>
-          
-            <div class="flex-col">
-                <label for="confirm-password"
-                  >Confirm Password</label>
-                <input
-                class="input-height"
-                  type="password"
-                  placeholder="Re-enter password"
-                  required
-                />
-                <span class="error">Passwords not matched. Try Again</span>
-            </div>
-    
-            <button class="submit-btn">submit</button>
-        </form>
-    </div>
-
+<div id="input" >
+  <div class="intro">
+    <h2 class="title">Inputs</h2>
+    <p class="info">Inputs are necessary for user interaction with the website. Inputs are used to take information from the user</p>
   </div>
+
+  <div class="input-component-area">
+    <form class="form-area">
+        <div class="flex-col">
+            <label for="email">Email</label>
+            <input
+            class="input-height"
+              type="email"
+              placeholder="abc@gmail.com"
+              required
+            />
+        </div>
+      
+        <div class="flex-col">
+            <label for="name">Name</label>
+            <input
+            class="input-height"
+              type="text"
+              placeholder="Enter your name"
+              required
+            />
+        </div>
+      
+        <div class="flex-col">
+            <label for="password">Password</label>
+            <input
+            class="input-height"
+            type="password"
+              placeholder="Enter your password"
+              required
+            />
+        </div>
+      
+        <div class="flex-col">
+            <label for="confirm-password"
+              >Confirm Password</label>
+            <input
+            class="input-height"
+              type="password"
+              placeholder="Re-enter password"
+              required
+            />
+            <span class="error">Passwords not matched. Try Again</span>
+        </div>
+
+        <button class="solid primary-solid">submit</button>
+    </form>
+</div>
+
+</div>
     
 </body>
 </html>

@@ -6,30 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neo UI | badge</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
-      rel="stylesheet">
+      rel="stylesheet">    
     <link rel="stylesheet" href="badge.css">
     <link rel="stylesheet" href="../index.css">
 </head>
 <body class="main-page">
     <header>
-        <nav class="navbar">
+        <nav class="navbar flex">
             <h1 class="navbrand">Neo UI</h1>
-           <ul class="navmenu">
-               <li><a class="link" href="#">installation</a></li>
-               <li><a  class="link" href="#components">components</a></li>
-           </ul>
+            <ul class="navmenu flex">
+               <li><a class="link" href="/index.html">Home</a></li>
+               <li><a  class="link" href="./doc.html">Documentation</a></li>
+            </ul>
         </nav>
     </header>
-    <div class="main">
+    <div id="Badge">
+        <div class="intro">
+            <h2 class="title">Badge</h2>
+            <p class="info">Badges are being used to display a notification count or status information.</p>
+        </div>
+
         <h3>Badge on Buttons</h3>
         <div class="component-area">
             <div class="btn-with-badge">
-                <button class="btn">Action</button>
+                <button class="solid primary-solid">Action</button>
                 <span class="badge badge-left">10</span>
             </div>
     
             <div class="btn-with-badge">
-                <button class="btn">Action</button>
+                <button class="solid primary-solid">Action</button>
                 <span class="badge badge-right">18</span>
             </div>
 
@@ -63,11 +68,7 @@
                 <img class="round-avatar"  src="https://i.pravatar.cc/100?img=4" alt="">
                 <span class="badge badge-offline"></span>
             </div>
-
-           
-
         </div>
-    
     </div>
      
 </body>
