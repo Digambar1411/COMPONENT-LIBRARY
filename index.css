@@ -4,10 +4,23 @@
     --color-header:rgb(247, 247, 248);  
     --color-footer:rgb(66, 66, 68);
     --color-outline-btn-hover: rgb(57, 133, 201);
+    --component-background:rgb(247, 245, 242);
+    --primary-btn:#49a0eb;
+    --secondary-btn:rgb(58, 201, 201);
+    --danger-btn:rgb(204, 71, 47);
+    --safe-btn:rgb(58, 201, 101);
+    --primary-alert:rgb(57, 182, 140);
+    --secondary-alert:rgb(240, 230, 230);
+    --success-alert:powderblue;
+    --warning-alert:rgb(241, 241, 122);
+    --danger-alert:rgb(233, 76, 76);
 }
 
 a,button{
     cursor: pointer;
+}
+h1,h2,h3,h4,h5,h6,p,body{
+    margin: 0;
 }
 
 .main-page{
@@ -172,6 +185,74 @@ a,button{
 
 .install-guide{
     width:100%;
+    
+}
+
+.solid{
+    border: none;
+    padding: 0.75rem 1rem;
+    border-radius:5px;
+    text-decoration: none;
+    color: white;
+    width:08rem;
+    max-width: 12rem;
+   
+}
+
+.btn-outline{
+    border: none;
+    padding: 0.75rem 1rem;
+    border-radius:5px;
+    text-decoration: none;
+    color: white;
+    width:08rem;
+    max-width: 12rem;
+
+}
+
+/* Solid */
+
+.primary-solid{
+    background-color:var(--primary-btn);
+    
+}
+
+.secondary-solid{
+    background-color: var(--secondary-btn);
+    
+}
+
+.danger-solid{
+    background-color: var(--danger-btn);
+    color: white;
+}
+.safe-solid{
+    background-color: var(--safe-btn);
+    
+}
+
+/* outline */
+
+.primary-outline{
+    border:1px solid var(--primary-btn);
+    color: var(--primary-btn);
+    
+}
+
+.secondary-outline{
+    border:1px solid  var(--secondary-btn);
+    color: var(--secondary-btn);
+   
+}
+
+.danger-outline{
+    border:1px solid var(--danger-btn);
+    color: var(--danger-btn);
+    
+}
+.safe-outline{
+    border:1px solid var(--safe-btn);
+    color: var(--safe-btn);
     
 }
 
