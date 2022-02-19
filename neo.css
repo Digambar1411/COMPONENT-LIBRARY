@@ -2,12 +2,14 @@
 @import "./Avatar/avatar.css";
 @import "./badge/badge.css";
 @import "./card/card.css";
-@import "./docs/doc.css";
+@import "./buttons/button.css";
 @import "./Images/image.css";
 @import "./input/input.css";
 @import "./rating/rating.css";
 @import "./toast/toast.css";
 @import "./typo/typo.css";
+
+@import "./docs/doc.css";
 @import "./index.css";
 
 * {
