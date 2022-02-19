@@ -129,7 +129,7 @@ h1,h2,h3,h4,h5,h6,p,body{
 .main-body{
     font-size: 1.25rem;
     line-height:2rem;
-    gap:5rem;
+    gap:10rem;
     padding:4rem;
 }
 .center{
