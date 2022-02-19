@@ -53,25 +53,11 @@ h1,h2,h3,h4,h5,h6,p,body{
     border-radius: 5px;
 }
 
-.main-btn{
-    border: none;
-    padding: 0.75rem 1rem;
-    border-radius:5px;
-    text-decoration: none;
-    max-width: 10rem; 
-    background-color:var(--color-primary);
-    margin-bottom: 1rem;
-}
-
-.main-outline{
-    padding: 0.75rem 1rem;
-    border-radius:5px;
-    max-width: 10rem; 
-    margin-bottom: 1rem;
+#main-outline{
     background:none;
     border:1px solid var(--color-primary)
 }
-.main-outline:hover{
+#main-outline:hover{
     background-color:var(--color-outline-btn-hover);
     
 }
@@ -182,6 +168,10 @@ h1,h2,h3,h4,h5,h6,p,body{
     display: flex;
     flex-direction: row;
 }
+.gap-24px{
+    gap:1.5rem;
+
+}
 
 .install-guide{
     width:100%;
@@ -194,8 +184,9 @@ h1,h2,h3,h4,h5,h6,p,body{
     border-radius:5px;
     text-decoration: none;
     color: white;
-    width:08rem;
-    max-width: 12rem;
+    min-width:08rem;
+    max-width:15rem;
+    letter-spacing: 1px;
    
 }
 
@@ -205,8 +196,8 @@ h1,h2,h3,h4,h5,h6,p,body{
     border-radius:5px;
     text-decoration: none;
     color: white;
-    width:08rem;
-    max-width: 12rem;
+    min-width:08rem;
+    max-width:15rem;
 
 }
 
