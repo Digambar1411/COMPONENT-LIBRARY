@@ -1,9 +1,8 @@
 :root{
-  --component-background-color:whitesmoke;
   --color-badge:rgb(238, 113, 171);
-  --primary-color:rgb(35, 44, 198);
+  --color-blue:rgb(35, 44, 198);
   --online-badge:rgb(10, 145, 5);
-  --offline-badge:grey
+  --offline-badge:grey;
 }
 
 /* badge on buttons*/
@@ -12,7 +11,7 @@
 }
 
 .badge{
-  background-color: var(--primary-color);
+  background-color: var(--color-blue);
   border-radius: 50%; 
   color: white;
   text-align: center;
@@ -45,11 +44,6 @@
   padding:9px;
 }
 
-.btn{
-  color: white;
-  background-color: var(--primary-color);
-  
-}
 
 /* Icon with a badge */
 .icon{
@@ -68,10 +62,8 @@
 }
 
 /* avatar with badges */
-
 .avatar-w-badge{
   position: relative;
-  
 }
 
 .round-avatar{  
@@ -117,15 +109,10 @@
   flex-wrap: wrap;
   gap: 2rem;
   padding:2rem 4rem;
-  background-color:var(--component-background-color)
+  background-color:var(--component-background)
 }
 
-button{
-  display: inline-block;    
-  border: none;
-  border-radius:6px;
-  letter-spacing: 1px;
-  padding:0.4rem 0.7rem;
-  cursor: pointer;
-}
+
+
+
 

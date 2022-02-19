@@ -1,17 +1,8 @@
-:root{
-    --component-background-color:whitesmoke;
-    --primary:rgb(78, 179, 145);
-    --secondary:white;
-    --success:powderblue;
-    --warning:rgb(235, 235, 72);
-    --danger:rgb(233, 76, 76);
-}
-
 .alert-components{
     display: flex;
     flex-direction: column;
     border-radius:0.5rem;
-    background-color:var(--component-background-color);
+    background-color:var(--component-background);
     padding: 0.5rem;
 }
 
@@ -22,25 +13,25 @@
 }
 
 .primary{
-    background-color:var(--primary);
+    background-color:var(--primary-alert);
 }
 
 .secondary{
-    background-color:var(--secondary);
+    background-color:var(--secondary-alert);
 }
 
 .success{
     display: flex;
     align-items: center;
-    background-color:var(--success);
+    background-color:var(--success-alert);
 }
 
 .danger{
-    background-color: var(--danger); 
+    background-color: var(--danger-alert); 
 }
 
 .warning{
     display: flex;
     align-items: center;
-    background-color:var(--warning) 
+    background-color:var(--warning-alert) 
 }

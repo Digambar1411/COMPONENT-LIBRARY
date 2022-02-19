@@ -1,7 +1,7 @@
 :root{
     --hover-color:rgb(44, 44, 44);
     --toast-background:rgba(36, 32, 36, 0.904);
-    --component-background:rgb(247, 245, 242);
+   
 }
 
 .toast{
