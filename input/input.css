@@ -5,8 +5,7 @@
 .flex-col{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    margin: 1rem 0;
+    
 }
 
 .form-area{
@@ -29,4 +28,9 @@
 
 .error{
     color: var(--color-error);
+}
+
+.margin-top-down-10px{
+    margin: 10px 0;;
+
 }
