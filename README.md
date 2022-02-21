@@ -6,7 +6,7 @@ This component library is built with html, css. All the components are ready wit
 
 It includes:
 
-Alerts
+Alerts <br>
 Avatar
 Badge
 Buttons
