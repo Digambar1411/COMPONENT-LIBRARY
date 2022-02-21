@@ -14,13 +14,12 @@
 
 .cards{
     background-color: var(--component-background);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 2rem;   
-    padding: 2rem;   
+    padding: 1rem;
+    gap:2rem; 
+      
+}
+.card-code-snipet{
+    width: 75%;
 }
 
 /************** Basic *************/
@@ -58,6 +57,10 @@
     font-size:larger;
     line-height:2rem;
     margin:0;
+}
+
+.padding-bottom-1rem{
+    padding-bottom: 1rem;
 }
 
 .card-sub-title{
