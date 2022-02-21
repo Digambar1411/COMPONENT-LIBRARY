@@ -7,14 +7,14 @@ This component library is built with html, css. All the components are ready wit
 It includes:
 
 Alerts <br>
-Avatar
-Badge
-Buttons
-Cards
-Input
-Ratings
-Toast
-Typography
+Avatar <br>
+Badge <br>
+Buttons <br>
+Cards <br>
+Input <br>
+Ratings <br>
+Toast <br>
+Typography <br>
 
 
 How to Use?
