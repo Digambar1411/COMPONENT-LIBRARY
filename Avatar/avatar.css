@@ -17,16 +17,82 @@
 }
 
 .avatar-lg{
-    width:13rem;
-    height:13rem;
+    width:35%;
+    height:35%;
 }
 
 .avatar-md{
-    width: 10rem;
-    height: 10rem;
+    width: 25%;
+    height: 25%;
 }
 
-  .avatar-sm{
-    width:6rem;
-    height:6rem;
+.avatar-sm{
+    width:15%;
+    height:15%;
 }
+.avatar-vsm{
+    width:5%;
+    height:5%;
+}
+
+.text{
+  position: relative; 
+  color:rgb(39, 39, 39);
+  
+}
+.text-lg{
+    top: 80px;
+    font-size: 180px; 
+    line-height: 180px; 
+}
+
+.text-md{
+    top: 60px;
+    font-size: 130px; 
+    line-height: 130px; 
+}
+
+.text-sm{
+    top: 40px;
+    font-size: 90px; 
+    line-height: 90px; 
+}
+
+.text-vsm{
+    top: 20px;
+    font-size: 40px; 
+    line-height: 40px; 
+}
+
+
+.text-circle{
+    background-color:rgb(133, 235, 235);
+    text-align: center;
+    border-radius: 50%;
+}
+
+.text-circle-lg{
+    width: 320px;
+    height: 320px;
+}
+
+.text-circle-md{
+    width: 240px;
+    height: 240px;
+}
+
+.text-circle-sm{
+    width: 160px;
+    height: 160px;
+}
+
+.text-circle-vsm{
+    width: 80px;
+    height: 80px;
+}
+
+
+
+
+
+
