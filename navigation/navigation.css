@@ -1,0 +1,38 @@
+:root{
+    --navigation-background:rgb(80, 79, 79);
+}
+
+.navigation{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    background-color: var(--navigation-background);
+}
+
+.horizontal{
+    width: 90%;
+}
+
+.vertical{
+    width: 100px;
+    
+}
+
+.links{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding:10px 1rem;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.links:hover{
+    background-color: #111;
+}
+
+.nav-components{
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
