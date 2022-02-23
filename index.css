@@ -247,6 +247,21 @@ h1,h2,h3,h4,h5,h6,p,body{
     
 }
 
+.intro{
+    margin:1rem 0px;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size:1.5rem
+}
+
+.info{
+    padding-bottom: 8px;
+}
+
 
 
 
