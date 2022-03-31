@@ -1,3 +1,8 @@
+:root{
+    --grey:rgb(194, 190, 190);
+    --grey-dark:rgb(102, 101, 101);
+}
+
 #list{
     margin-left: 1rem;
 }
@@ -10,7 +15,7 @@
     cursor: pointer;
     color: white;
     letter-spacing: 1px;
-    border-bottom: 1px solid rgb(187, 184, 184);
+    border-bottom: 1px solid var(--grey);
 }
 
 .list-style-none{
@@ -48,11 +53,11 @@
     margin:1rem 0rem;
     padding: 0px 1rem;
     width:250px;
-    border: 1px solid rgb(187, 184, 184);
+    border: 1px solid var(--grey);
 }
 
 .grey-text{
-    color:rgb(134, 133, 133)
+    color:var(--grey-dark);
 }
 
 .light-text{
@@ -60,5 +65,5 @@
 }
 
 .border-bottom{
-    border-bottom: 1px solid rgb(187, 184, 184);
+    border-bottom: 1px solid var(--grey);
 }
