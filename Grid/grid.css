@@ -1,10 +1,14 @@
+:root{
+    --grey-border:rgb(194, 190, 190);
+}
+
 .grid-container{
     width: 90%;
     display: grid;
-    padding: 2em;
+    padding: 2rem;
     grid-gap: 10px;
     margin: 1rem;
-    border: 1px solid rgb(160, 158, 158);
+    border: 1px solid var(--grey-border);
 }
 .two-col-grid{
     grid-template-columns: 1fr 1fr;
@@ -27,7 +31,3 @@
 .large-font{
     font-size: large;
 }
-
-
-
-
