@@ -1,8 +1,6 @@
 #modal-content{
     position: fixed; 
     z-index: 1; 
-    left: 0;
-    top: 12;
     width: fit-content;
     height:fit-content; 
     background-color:white;
