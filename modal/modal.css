@@ -3,21 +3,14 @@
 }
 
 #modal-content{
+    position: fixed; 
     z-index: 1; 
     width: fit-content;
     height:fit-content; 
+    /* background-color:white; */
     border-radius: 5px;
     margin: 1rem;
     border: 1px solid whitesmoke;
-    background-color: white;
-}
-.modal{
-    background-color: var(--component-background);
-    padding: 1rem;
-    
-}
-#Modal{
-    padding: 1rem;
 }
 
 .modal-body{
@@ -34,7 +27,7 @@
     display: flex;
     justify-content: flex-end;
     column-gap: 1rem;
-    background-color: rgb(206, 212, 226);
+    background-color: var(--component-background);
 }
 
 #span{
