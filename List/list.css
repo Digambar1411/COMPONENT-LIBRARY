@@ -1,6 +1,9 @@
 :root{
     --grey:rgb(194, 190, 190);
     --grey-dark:rgb(102, 101, 101);
+    --light-blue-background:rgb(18, 128, 224);
+    --light-blue-hover:rgb(75, 148, 216);
+    --light-black:rgb(36, 35, 35)
 }
 
 #list{
@@ -8,7 +11,7 @@
 }
 
 .simple-list{
-    background-color: rgb(18, 128, 224);
+    background-color: var(--light-blue-background);
     height:fit-content;
     width: fit-content;
     padding: 10px;
@@ -23,7 +26,7 @@
 }
 
 .simple-list:hover{
-    background-color: rgb(75, 148, 216);
+    background-color: var(--light-blue-hover);
 }
 
 .list-items{
@@ -61,7 +64,7 @@
 }
 
 .light-text{
-    color:rgb(36, 35, 35)
+    color:var(--light-black);
 }
 
 .border-bottom{
