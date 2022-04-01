@@ -1,9 +1,13 @@
+:root{
+    --light-dark:rgb(99, 96, 96);
+}
+
 #modal-content{
     position: fixed; 
     z-index: 1; 
     width: fit-content;
     height:fit-content; 
-    background-color:white;
+    /* background-color:white; */
     border-radius: 5px;
     margin: 1rem;
     border: 1px solid whitesmoke;
@@ -23,12 +27,12 @@
     display: flex;
     justify-content: flex-end;
     column-gap: 1rem;
-    background-color: rgb(226, 222, 216);
+    background-color: var(--component-background);
 }
 
 #span{
     font-size: large;
-    color:rgb(99, 96, 96)
+    color:var(--light-dark);
 }
 
 #span:hover{
