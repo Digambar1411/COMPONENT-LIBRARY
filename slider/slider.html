@@ -4,20 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigation</title>
+    <title>Slider</title>
     <link rel="stylesheet" href="slider.css">
     <link rel="stylesheet" href="../index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
 </head>
 <body>
     <div id="slider">
         <div class="intro">
             <h1 class="title">Slider</h1>
-            <p class="info">elements of type range let the user specify a numeric value which must be no less than a given value, and no more than another given value</p>
+            <p class="info">The Sliders are used to allow users to select the values in range.</p>
         </div>
-       
+        
+        <p class="info">Simple slider</p> 
         <div class="slider-component">
             <div class="flex-col">
                 <label htmlFor="myRange">Price Range</label>
+                <input type="range" min="1" max="1000"  class="slider" id="myRange"/>
+            </div>
+            
+        </div>
+
+        <p class="info">Slider for volume</p>
+        <div class="slider-component">
+            <div class="icon-slider">
+                <span class="material-icons-outlined">volume_up</span>
                 <input type="range" min="1" max="1000"  class="slider" id="myRange"/>
             </div>
             
