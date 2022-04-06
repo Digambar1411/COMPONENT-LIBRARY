@@ -9,6 +9,7 @@
     grid-gap: 10px;
     margin: 1rem;
     border: 1px solid var(--grey-border);
+    background-color: white;
 }
 .two-col-grid{
     grid-template-columns: 1fr 1fr;
@@ -30,4 +31,7 @@
 
 .large-font{
     font-size: large;
+}
+.grid-sub-title{
+    padding: 1rem 0;
 }
