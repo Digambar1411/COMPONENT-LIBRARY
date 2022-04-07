@@ -15,6 +15,11 @@ Input <br>
 Ratings <br>
 Toast <br>
 Typography <br>
+List <br>
+Modal <br>
+Grid <br>
+Drawer <br>
+Slider <br>
 
 
 How to Use?
