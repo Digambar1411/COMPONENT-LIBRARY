@@ -18,6 +18,7 @@
 }
 
 .main-section{
+    position: relative;
     padding: 10px;
     margin-top: 3rem;
     width:80%;
@@ -59,9 +60,15 @@
 
 .code-snipet{
     padding: 1.5rem 0;
+    
 }
 
 .gap-2rem{
     gap: 2rem;
+}
+
+.padding-top-down-1rem{
+    padding: 1rem 0;
+
 }
                     
