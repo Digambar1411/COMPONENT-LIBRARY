@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="../List/list.css">
     <link rel="stylesheet" href="../modal/modal.css">
     <link rel="stylesheet" href="../Grid/grid.css">
+    <link rel="stylesheet" href="../drawer-component/drawer-compo.css">
+    <link rel="stylesheet" href="../slider/slider.css">
   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
@@ -57,6 +59,9 @@
             <div class="items"><a href="#Modal">Modal</a></div>
             <div class="items"><a href="#list">List</a></div>
             <div class="items"><a href="#grid">Grid</a></div>
+            <div class="items"><a href="#drawer">Drawer</a></div>
+            <div class="items"><a href="#slider">Slider</a></div>
+            
         </div>
 
         <div class="main-section">
@@ -907,6 +912,68 @@
                     <iframe src="https://www.thiscodeworks.com/embed/6246b3628319e00015188505" style="width: 100%; height: 180px;" frameborder="0"></iframe>
                 </div>
                                
+            </div>
+
+            <div id="drawer">
+                <div class="intro">
+                    <h1 class="title">Drawer</h1>
+                    <p class="info">The drawer component is a slide-in element that can be used to display relevant information without losing the context of the page</p>
+                </div>
+            
+                <div class="main flex-col">
+                    <div class="drawer">
+                        <div class="header">
+                        <h4 class="title">Title</h4>
+                        <sub>Subtext</sub>
+                        </div>
+                        <div class="drawer-body flex-col center">
+                            <div class="item">
+                                <span class="material-icons">inbox</span> 
+                                <p class="item-text">Inbox</p>
+                            </div>
+        
+                            <div class="item">
+                                <span class="material-icons">star</span> 
+                                <p class="item-text">Star</p>
+                            </div>
+        
+                            <div class="item">
+                                <span class="material-icons">send</span>
+                                <p class="item-text">Sent mails</p>
+                            </div>
+        
+                            <div class="item">
+                                <span class="material-icons">drafts</span> 
+                                <p class="item-text">Draft</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="slider">
+                <div class="intro">
+                    <h1 class="title">Slider</h1>
+                    <p class="info">The Sliders are used to allow users to select the values in range.</p>
+                </div>
+                
+                <p class="info">Simple slider</p> 
+                <div class="slider-component">
+                    <div class="flex-col">
+                        <label htmlFor="myRange">Price Range</label>
+                        <input type="range" min="1" max="1000"  class="slider" id="myRange"/>
+                    </div>
+                    
+                </div>
+        
+                <p class="info">Slider for volume</p>
+                <div class="slider-component">
+                    <div class="icon-slider">
+                        <span class="material-icons-outlined">volume_up</span>
+                        <input type="range" min="1" max="1000"  class="slider" id="myRange"/>
+                    </div>
+                    
+                </div>
             </div>
 
         </div>
