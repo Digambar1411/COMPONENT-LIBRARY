@@ -1,0 +1,47 @@
+:root{
+    --item-hover:rgb(230, 225, 219);
+}
+
+.title{
+    margin: 0ch;
+}
+
+.main{
+    row-gap: 2rem;
+    align-items: center;
+    background-color: var(--component-background);
+}
+
+.drawer{
+    background:white;
+    max-width:12rem;
+    row-gap: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    margin: 2rem auto;
+    
+}
+
+.drawer-body{
+    row-gap:0.4rem;
+}
+
+.item{
+    display:flex;  
+    width: 100%;
+    border-radius: 4px;
+    padding: 0.5rem 0.6rem;
+    align-items: center;
+    
+}
+
+.item:hover{
+    background-color: var(--item-hover);
+}
+
+.item-text{
+    margin-left:2rem;
+    margin-right:0rem;
+    margin-top:0rem;
+    margin-bottom:0rem;
+}
