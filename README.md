@@ -17,6 +17,11 @@ It includes:
     <li>Toast</li>
     <li>Typography</li>
     <li>Simple Navigation</li>
+    <li>Modal</li>
+    <li>List</li>
+    <li>Grid</li>
+    <li>Drawer</li>
+    <li>Slider</li>
 </ul>
 
 
